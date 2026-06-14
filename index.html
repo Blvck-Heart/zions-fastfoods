@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Zion's FastFoods</title>
+    <link rel="icon" type="x-image/icon" href="" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Montserrat, sans-serif;
+        text-decoration: none;
+      }
+      header {
+        display: flex;
+        flex-wrap: wrap;
+		background-color: darkgray;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+
+      .logo {
+		width: 40px;
+		height: 40px;
+        border-radius: 10px;
+	}
+
+      nav {
+        display: flex;
+      }
+      nav ul {
+        list-style-type: none;
+        margin-left: 620px;
+        display: flex;
+        align-items: center;
+      }
+      nav ul li {
+        display: flex;
+        margin-right: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav ul li a {
+        color: black;
+        display: block;
+      }
+
+      section {
+        justify-content: center;
+      }
+
+      section .ff {
+        text-transform: uppercase;
+        font-size: 25px;
+      }
+
+      section .featured-foods {
+        width: 100%;
+        text-align: center;
+      }
+
+      .img-sec {
+        border: 3px solid lightgray;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 500px;
+      }
+
+      .g4 {
+        width: 100px;
+        height: 150px;
+      }
+      img {
+        width: 100px;
+        border-radius: 10px;
+      }
+
+      .ff-img {
+        border: 3px solid lightgray;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      button {
+        background-color: lightblue;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <a href="/" class="home-logo"><img src="/images/sea.png" alt="" class="logo"></a>
+      <p>Filling your stomach is our mission...</p>
+      <nav>
+        <ul>
+          <li><a href="/"> Home </a></li>
+          <li><a href="/pages/order.html"> Order </a></li>
+          <li><a href="/pages/menu.html"> Menu </a></li>
+          <li><a href="/pages/contact.html"> Contact </a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="featured-foods">
+        <div class="ff">
+          <h1> Food Categories</h1>
+        </div>
+        <div class="img-sec">
+          <div class="ff-img">
+            <img src="/images/sea.png" alt="f1 food" />
+            <p>Okpa</p>
+            <p><span>$</span>23.5</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="ff-img">
+            <img src="/images/f2.png" alt="f2 food" />
+            <p>Pizza</p>
+            <p><span>$</span>23.5</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="ff-img">
+            <img src="../images/f3.png" alt="f3 food" class="g4" />
+            <p>Garri</p>
+            <p><span>$</span>120.5</p>
+            <button type="submit">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="food-cat">
+        <div class="cat-h">
+          <h1>Food Categories</h1>
+        </div>
+        <div class="f-cat">
+          <ul>
+            <li><a href="#">Breakfast</a></li>
+            <li><a href="#">Lunch</a></li>
+            <li><a href="#">Dinner</a></li>
+            <li><a href="#">Snacks</a></li>
+          </ul>
+        </div> -->
+      </div>
+    </section>
+  </body>
+</html>

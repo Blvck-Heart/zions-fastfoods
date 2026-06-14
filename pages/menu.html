@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         * {
+        box-sizing: border-box;
+        font-family: Montserrat, sans-serif;
+        text-decoration: none;
+      }
+      header {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: darkgray;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+
+      .logo {
+		width: 40px;
+		height: 40px;
+        border-radius: 10px;
+	}
+
+      nav {
+        display: flex;
+      }
+      nav ul {
+        list-style-type: none;
+        margin-left: 620px;
+        display: flex;
+        align-items: center;
+      }
+      nav ul li {
+        display: flex;
+        margin-right: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav ul li a {
+        color: black;
+        display: block;
+      }
+
+    section {
+        display: flex;
+        justify-content: center;
+    }
+    table {
+        border: 1px solid gray;
+        width: 600px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }      
+
+    table .table-title {
+        text-transform: uppercase;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tt {
+        /* border-radius: 5px; */
+        display: flex;
+        justify-content: center;
+        border-top: 2px solid black;
+        padding: 50px;
+      }
+
+    .tt th, .tt td {
+        margin-right: 40px;
+      }
+
+
+    </style>
+</head>
+<body>
+    <header>
+      <a href="/" class="home-logo"><img src="/images/sea.png" alt="" class="logo"></a>
+      <span>Zion's FastFoods</span>
+      <p>Filling your stomach is our mission...</p>
+      <nav>
+        <ul>
+          <li><a href="/"> Home </a></li>
+          <li><a href="/pages/order.html"> Order </a></li>
+          <li><a href="/pages/menu.html"> Menu </a></li>
+          <li><a href="/pages/contact.html"> Contact </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container">
+        <table>
+            <tr class="table-title">
+                <th>Main Menu</th>
+            </tr>
+            <tr class="tt">
+                <th>Breakfast</th>
+                 <th>Lunch</th>
+                <th>Brunch</th>
+                <th>Dinner</th>
+            </tr>
+            <tr class="tt">
+                <td>Noodles</td>
+                <td>Tea & Biscuit</td>
+                <td>Rice & Stew</td>
+                <td>Jollof Pasta</td>
+
+            </tr>
+            <tr class="tt">
+                <td>Tea & Bread</td>
+                <td>Corn Flakes</td>
+                <td>Fried Rice</td>
+                <td>Soaked Garri</td>
+            </tr>
+             <tr class="tt">
+                <td>Rice & Milk</td>
+                <td>Garri with Sugar</td>
+                <td>Garri without Sugar</td>
+                <td>Healthy Garri</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
